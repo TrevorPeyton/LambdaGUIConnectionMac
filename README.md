@@ -26,7 +26,7 @@ jupyter lab --no-browser --port=XXXX --working-dir /
 
 Open a new terminal window and run the following to open a port from Lambda to your local computer (XXXX from the one you set YYYY to the new port on your computer):
 
-ssh -N -f -L localhost:XXXX:localhost:YYYY user@ecs323lambda.research.utc.edu
+ssh -N -f -L localhost:XXXX:localhost:YYYY user@host
 
 Then login on your browser:
 
