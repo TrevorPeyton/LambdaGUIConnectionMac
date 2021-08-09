@@ -22,7 +22,7 @@ verify using xeyes command.
 
 ssh into lambda like normal and run:
 
-jupyter lab --no-browser --port=XXXX --working-dir /
+jupyter lab --no-browser --port=XXXX --notebook-dir /
 
 Open a new terminal window and run the following to open a port from Lambda to your local computer (XXXX from the one you set YYYY to the new port on your computer):
 
